@@ -29,17 +29,5 @@ class MainActivity : AppCompatActivity() {
             val msg = "Token -> $token"
             Log.d("Firebase Message", msg)
         }
-//        Firebase.messaging.token.addOnCompleteListener(OnCompleteListener { task ->
-//            if (!task.isSuccessful) {
-//                Log.w("Firebase Message", "Fetching FCM registration token failed", task.exception)
-//                return@OnCompleteListener
-//            }
-//            // Get new FCM registration token
-//            val token = task.result
-//
-//            // Log and toast
-//            val msg = "Token -> $token"
-//            Log.d("Firebase Message", msg)
-//        })
     }
 }
